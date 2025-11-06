@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="anketa.css">
+    <title>Ocjena</title>
+</head>
+<body>
+    <div class="tekst">
+    <p>Molim Vas da mi pomognete i ocjenite stranicu kako bi znala napredovati :)</p>
+    </div>
+    <div class="anketa">
+        <form action="mailto:ivonaobadic@gmail.com" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend><b>Osobni podaci:</b></legend>
+                Ime i prezime: <br><input type="text" name="ime" size="30" placeholder="Ivo Ivić"><br>
+                E-mail: <br><input type="email" name="email" size="30" placeholder="ivoivic@gmail.com"><br>
+                Ocjena: <br> <input type="radio" name="ocjena" value="1">1 <br>
+                <input type="radio" name="ocjena" value="2">2 <br>
+                <input type="radio" name="ocjena" value="3">3 <br>
+                <input type="radio" name="ocjena" value="4">4 <br>
+                <input type="radio" name="ocjena" value="5">5 <br>
+
+                <p>Spol:</p>
+                <select name="spol" id="spol"> 
+                    <option name="spol" value="žensko">Žensko</option>
+                    <option name="spol" value="muško">Muško</option>
+                    <option name="spol" value="ne">Ne želim reći</option>
+                </select>
+                
+
+            <div class="gumb">
+                <input type="submit" value="Pošalji">
+                <input type="reset" value="Poništi">
+            </div>
+            </fieldset>
+        </form>
+    </div>
+    
+    <div class="povratak">
+        <form action="">
+        <input type="button" value="Početna stranica" onclick="window.location.href='index.html'">
+        </form>
+    </div>
+
+    <footer>
+        <p>ivonaobadic@gmail.com</p>
+    </footer>
+</body>
+</html>

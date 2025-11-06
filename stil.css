@@ -1,12 +1,37 @@
 body{
-    background-color: #D6D5C9; 
+    background-color: #D6D5C9;
+    font-family: "Montserrat"
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: right;
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #110e0e;
+        font-weight: bold;
+    }
 }
 
 .naslov{
     h1{
         color: #8D0801;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 70px;
         margin-bottom: 0px;
         font-size: 70px;
         font-family: "BBH Sans Bartle";
@@ -33,45 +58,6 @@ body{
 }
 
 
-.lista1{
-    display: flex;
-    float: right;
-    margin-right: 500px;
-    margin-top: 40px;
-    font-size: 17px;
-    font-family: "Montserrat";
-    line-height: 150%;
-    color: #110e0e;
-
-    li{
-        list-style: circle;
-    }
-    
-    
-    p{
-        text-decoration: underline;
-        color: #902923;
-    }
-
-}
-
-.lista2{
-    display: flex;
-    float: left;
-    margin-left: 500px;
-    margin-top: 40px;
-    font-size: 17px;
-    font-family: "Montserrat";
-    line-height: 150%;
-    color: #110e0e;
-    
-    p{
-        text-decoration: underline;
-        color: #902923;
-    }
-
-}
-
 .quote{
     text-align: center;
     font-size: 20px;
@@ -81,4 +67,66 @@ body{
     font-family: "Montserrat";
 }
 
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #8D0801;
+    width: 100vw;
+    position: relative;
+    margin: 0%;
+    left: 0;
+    margin-top: auto;
+
+   li{
+    list-style: none;
+   }
+
+   a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Montserrat";
+    font-size: 16px;
+   }
+}
+
+.liste{
+    width: 60%;
+    margin: 40px auto;
+    overflow: auto;
+}
+
+.lista1{
+    float: left;
+    width: 45%;
+    text-align: right;
+    list-style-position: inside;
+
+    li{
+        list-style: none;
+    }
+}
+
+.lista2{
+    float: right;
+    width: 45%;
+    text-align: left;
+    list-style-position: inside;
+
+    li{
+        list-style: circle;
+    }
+}
+
+.lista1, .lista2{
+    font-size: 17px;
+    font-family: "Montserrat";
+    line-height: 150%;
+    color: #110e0e;
+
+    p{
+        text-decoration: underline;
+        color: #902923;
+    }
+}
 

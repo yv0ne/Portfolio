@@ -1,0 +1,132 @@
+body{
+    background-color: #D6D5C9; 
+    font-family: "Montserrat";
+    color: #110e0e;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: right;
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #110e0e;
+    }
+}
+
+.tekst{
+    text-align: center;
+    font-size: 20px;
+
+    h3{
+        color: #8D0801;
+        font-family: "BBH Sans Bartle";
+        letter-spacing: 3px;
+    }
+}
+
+.poruka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #110e0e;
+    font-family: "Montserrat";
+
+    form {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 20px 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(141, 8, 1, 0.3);
+    }
+
+    fieldset{
+        width: 600px;
+        background-color: rgba(214, 213, 201, 0.5);
+        border: 2px solid #8D0801;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"]{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 90%;
+        padding: 5px;
+        border: 1px solid #902923;
+        border-radius: 5px;
+        background-color: #f5f3f1;
+    }
+
+    input[list]{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 90%;
+        padding: 5px;
+        border: 1px solid #902923;
+        border-radius: 5px;
+        background-color: #f5f3f1;
+    }
+
+    #opis{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 90%;
+        padding: 5px;
+        border: 1px solid #902923;
+        border-radius: 5px;
+        background-color: #f5f3f1;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        background-color: #8D0801;
+        color: whitesmoke;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+        font-family: "Montserrat";
+        margin-top: 20px;
+    }
+}
+
+.gumb{
+    text-align: center;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #8D0801;
+    width: 100vw;
+    position: relative;
+    margin: 0%;
+    left: 0;
+    margin-top: auto;
+
+   p{
+    color: whitesmoke;
+    font-family: "Montserrat";
+    font-size: 16px;
+   }
+}
