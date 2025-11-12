@@ -6,9 +6,13 @@ body{
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 .nav{
@@ -31,7 +35,7 @@ html, body {
     h1{
         color: #8D0801;
         text-align: center;
-        margin-top: 70px;
+        margin-top: 50px;
         margin-bottom: 0px;
         font-size: 70px;
         font-family: "BBH Sans Bartle";
@@ -41,7 +45,7 @@ html, body {
         color: #902923;
         text-align: center;
         margin-top: 2px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         font-family: "Montserrat";
         font-style: italic;
         font-weight: 400;
@@ -62,7 +66,7 @@ html, body {
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #110e0e;
     font-family: "Montserrat";
 }
@@ -72,7 +76,7 @@ footer{
     text-align: center;
     padding: 15px 0;
     background-color: #8D0801;
-    width: 100vw;
+    width: 100%;
     position: relative;
     margin: 0%;
     left: 0;
@@ -92,7 +96,7 @@ footer{
 
 .liste{
     width: 60%;
-    margin: 40px auto;
+    margin: 20px auto;
     overflow: auto;
 }
 
@@ -130,3 +134,50 @@ footer{
     }
 }
 
+.tablica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: #110e0e;
+    border-collapse: collapse;
+    font-size: 15px;
+
+    table{
+        border: 2px solid #902923;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 20px 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(141, 8, 1, 0.3);
+    }
+
+    th{
+        border: 1px solid #902923;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 20px;
+        color: #8D0801;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+
+    td{
+        border: 1px solid #902923;
+        border-radius: 5px;
+        padding: 10px 20px;
+        line-height: 1.8;
+    }
+
+    a{
+        text-decoration: none;
+        color: #6b0803;
+    }
+
+    #naslov{
+        text-align: center;
+        font-weight: bold;
+    }
+}
