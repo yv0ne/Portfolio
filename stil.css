@@ -18,38 +18,36 @@ main {
 .nav{
     margin-top: 20px;
     margin-right: 50px;
-    text-align: right;
-
-    li{
-        list-style: none;
-    }
-
-    a{
-        text-decoration: none;
-        color: #110e0e;
-        font-weight: bold;
-    }
+    text-align: right; 
 }
 
-.naslov{
-    h1{
-        color: #8D0801;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 0px;
-        font-size: 70px;
-        font-family: "BBH Sans Bartle";
-    }
+.nav a{
+    text-decoration: none;
+    color: #110e0e;
+    font-weight: bold;
+}
 
-    h3{
-        color: #902923;
-        text-align: center;
-        margin-top: 2px;
-        margin-bottom: 30px;
-        font-family: "Montserrat";
-        font-style: italic;
-        font-weight: 400;
-    }
+.nav li{
+    list-style: none;
+}
+
+.naslov h1{
+    color: #8D0801;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    font-family: "BBH Sans Bartle";
+}
+
+.naslov h3{
+    color: #902923;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 400;
 }
 
 .opis{
@@ -81,17 +79,17 @@ footer{
     margin: 0%;
     left: 0;
     margin-top: auto;
+}
 
-   li{
+footer li{
     list-style: none;
-   }
+}
 
-   a{
+footer a{
     text-decoration: none;
     color: whitesmoke;
     font-family: "Montserrat";
     font-size: 16px;
-   }
 }
 
 .liste{
@@ -105,10 +103,10 @@ footer{
     width: 45%;
     text-align: right;
     list-style-position: inside;
+}
 
-    li{
-        list-style: none;
-    }
+.lista1 li{
+    list-style: none;
 }
 
 .lista2{
@@ -116,10 +114,10 @@ footer{
     width: 45%;
     text-align: left;
     list-style-position: inside;
+}
 
-    li{
-        list-style: circle;
-    }
+.lista2 li{
+    list-style: circle;
 }
 
 .lista1, .lista2{
@@ -127,11 +125,11 @@ footer{
     font-family: "Montserrat";
     line-height: 150%;
     color: #110e0e;
+}
 
-    p{
-        text-decoration: underline;
-        color: #902923;
-    }
+.lista1, .lista2 p{
+    text-decoration: underline;
+    color: #902923;
 }
 
 .tablica{
@@ -143,41 +141,41 @@ footer{
     margin-bottom: 50px;
     color: #110e0e;
     border-collapse: collapse;
-    font-size: 15px;
+    font-size: 15px;  
+}
 
-    table{
-        border: 2px solid #902923;
-        border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.3);
-        padding: 20px 40px;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(141, 8, 1, 0.3);
-    }
+.tablica table{
+    border: 2px solid #902923;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(141, 8, 1, 0.3);
+}
 
-    th{
-        border: 1px solid #902923;
-        border-radius: 5px;
-        text-align: center;
-        padding: 10px 20px;
-        color: #8D0801;
-        font-weight: 900;
-        letter-spacing: 1px;
-    }
+.tablica th{
+    border: 1px solid #902923;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #8D0801;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
 
-    td{
-        border: 1px solid #902923;
-        border-radius: 5px;
-        padding: 10px 20px;
-        line-height: 1.8;
-    }
+.tablica td{
+    border: 1px solid #902923;
+    border-radius: 5px;
+    padding: 10px 20px;
+    line-height: 1.8;
+}
 
-    a{
-        text-decoration: none;
-        color: #6b0803;
-    }
+.tablica a{
+    text-decoration: none;
+    color: #6b0803;
+}
 
-    #naslov{
-        text-align: center;
-        font-weight: bold;
-    }
+.tablica  #naslov{
+    text-align: center;
+    font-weight: bold;
 }

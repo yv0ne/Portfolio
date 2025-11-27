@@ -20,12 +20,12 @@ footer{
     margin: 0%;
     left: 0;
     margin-top: auto;
+}
 
-   p{
+footer  p{
     color: whitesmoke;
     font-family: "Montserrat";
     font-size: 16px;
-   }
 }
 
 .tekst{
@@ -44,23 +44,6 @@ footer{
     margin-top: 10px;
     color: #110e0e;
     font-family: "Montserrat";
-
-    form {
-        background-color: rgba(255, 255, 255, 0.3);
-        padding: 20px 40px;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(141, 8, 1, 0.3);
-        margin-top: 40px;
-    }
-
-    fieldset{
-        width: 350px;
-        background-color: rgba(214, 213, 201, 0.5);
-        border: 2px solid #8D0801;
-        border-radius: 8px;
-        margin-bottom: 20px;
-        padding: 15px;
-    }
 
     input[type="text"],
     input[type="email"]{
@@ -91,21 +74,38 @@ footer{
         margin-top: 20px;
        
     }
+}
 
-    #spol{
-        margin-bottom: 10px;
-        width: 90%;
-        padding: 5px;
-        border: 1px solid #902923;
-        border-radius: 5px;
-        background-color: #f5f3f1;
-        font-family: "Montserrat";
-    }
-   
-    legend{
-        color: #8D0801;
-        font-weight: bold;
-    }
+.anketa form {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(141, 8, 1, 0.3);
+    margin-top: 40px;
+}
+
+.anketa fieldset{
+    width: 350px;
+    background-color: rgba(214, 213, 201, 0.5);
+    border: 2px solid #8D0801;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.anketa #spol{
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #902923;
+    border-radius: 5px;
+    background-color: #f5f3f1;
+    font-family: "Montserrat";
+}
+
+.anketa legend{
+    color: #8D0801;
+    font-weight: bold;
 }
 
 .gumb{
