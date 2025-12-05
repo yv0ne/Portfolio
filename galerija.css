@@ -1,0 +1,113 @@
+body{
+    background-color: #D6D5C9;
+    font-family: "Montserrat"
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #8D0801;
+    width: 100%;
+    position: relative;
+    margin: 0%;
+    left: 0;
+    margin-top: auto;
+}
+
+footer p{
+    color: whitesmoke;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.nav{
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: right; 
+}
+
+.nav a{
+    text-decoration: none;
+    color: #110e0e;
+    font-weight: bold;
+}
+
+.nav li{
+    list-style: none;
+}
+
+h1{
+    color: #8D0801;
+    font-family: "BBH Sans Bartle";
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.galerija {
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+.galerija img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px; 
+    object-fit: cover;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.35), 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#opis{
+    color: #110e0e;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.video{
+    margin: 0 auto;
+}
+
+.video iframe{
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.35), 0 5px 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+
+    .galerija {
+        flex-wrap: wrap;          
+        justify-content: center;  
+    }
+
+    .galerija img {
+        width: 90%;               
+        max-width: 350px;
+    }
+
+    #opis {
+        margin-left: 20px;        
+        font-size: 18px;
+    }
+
+    .video iframe {
+        width: 95vw;             
+        height: auto;
+    }
+}
