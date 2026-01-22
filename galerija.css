@@ -9,6 +9,7 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 main {
@@ -55,12 +56,16 @@ h1{
     letter-spacing: 3px;
     text-align: center;
     margin-top: 30px;
-    animation: a1 3s ease-in-out 5ms forwards;
+    animation: fadeIn 2s ease-out forwards;
 }
 
-@keyframes a1{
-    from {opacity: 0;}
-    to {opacity: 1;}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .galerija {
@@ -69,6 +74,7 @@ h1{
     padding: 20px;
     margin: 0 auto; 
     margin-top: 50px;
+    perspective: 800px;
 }
 
 .galerija img {
@@ -77,6 +83,14 @@ h1{
     border-radius: 8px; 
     object-fit: cover;
     box-shadow: 0 15px 25px rgba(0,0,0,0.35), 0 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.galerija img:hover {
+    transform: rotateY(30deg) translateZ(30px);
+    outline: 2px solid #8D0801;
 }
 
 #opis{
@@ -118,3 +132,4 @@ h1{
         height: auto;
     }
 }
+
